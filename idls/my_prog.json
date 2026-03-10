@@ -1,0 +1,35 @@
+{
+    "address": "6K2EPrcPHBZYjJJtJnMDsQmZVUk5fitKUVuzXdukbLgx",
+    "metadata": {
+      "name": "MyProgram",
+      "version": "0.1.0",
+      "spec": "0.1.0",
+      "description": ""
+    },
+    "instructions": [],
+    "accounts": [],
+    "events": [],
+    "errors": [],
+    "types": [
+      {
+        "name": "MyStruct",
+        "generics": [
+          {
+            "kind": "type",
+            "name": "T"
+          }
+        ],
+        "type": {
+          "kind": "struct",
+          "fields": [
+            {
+              "name": "a",
+              "type": {
+                "generic": "T"
+              }
+            }
+          ]
+        }
+      }
+      ]
+  }

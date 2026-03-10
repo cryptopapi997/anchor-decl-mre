@@ -1,0 +1,7 @@
+[package]
+name = "anchor-decl-mre"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = {package = "anchor-lang", version = "0.32.1", features = ["lazy-account"]}
